@@ -11,8 +11,6 @@ Cut out summary from your post content here.
 
 <!--more-->
 
-The remaining content of your post.
-
 What do you want me to write about?
 
 Not sure how to create new posts via forestry..
