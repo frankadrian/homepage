@@ -33,3 +33,5 @@ fields:
   type: boolean
   hidden: false
   default: ''
+pages:
+- content/post/how-i-build-this-website.md
