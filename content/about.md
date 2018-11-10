@@ -11,6 +11,8 @@ menu:
 ---
 Hi, this is my webspace!
 
-I do some web development, writing about it and sharing some thoughts I have.
+I do some web development, writing about, sharing some thoughts I have.
+
+I was born in Windhoek, Namibia and since then lived in Cape Town and Hamburg, Germany, where I currently reside. My current goal with this website is to start writing more and also have people find the content that I write about.
 
 Feel free to say Hi via any channel provided here 👋
