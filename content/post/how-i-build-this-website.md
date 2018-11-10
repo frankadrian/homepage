@@ -8,7 +8,7 @@ tags = ["web development", "aws", "hugo"]
 title = "How I build this website"
 
 +++
-This post outlines how I initially built this website, using a couple of services and open source projects, all in the cloud and completely for "free" (exluding the domain name (you could use github pages for free) and provided you stay in the [free tier](https://aws.amazon.com/free/?awsf.Free%20Tier%20Types=categories%23alwaysfree)).
+This post outlines how I initially built this website, using a couple of services and open source projects, all in the cloud and completely for "free" (excluding the domain name (you could use github pages for free) and provided you stay in the [free tier](https://aws.amazon.com/free/?awsf.Free%20Tier%20Types=categories%23alwaysfree)).
 
 <!--more-->
 
