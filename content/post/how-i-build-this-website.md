@@ -8,9 +8,9 @@ tags = ["web development", "aws", "hugo"]
 title = "How I build this website"
 
 +++
-Hi,
-
 This post outlines how I initially built this website, using a couple of services and open source projects, all in the cloud and completely for "free".
+
+<!--more-->
 
 Tools I use:
 
