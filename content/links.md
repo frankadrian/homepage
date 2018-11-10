@@ -1,8 +1,11 @@
 ---
-title: "Links"
-date: 2018-11-09T18:50:48+01:00
-layout: "links"
-menu: "main"
+title: Links
+date: 2018-11-09 17:50:48 +0000
+layout: links
 weight: 40
----
+menu:
+  main:
+    weight: 40
+draft: true
 
+---
