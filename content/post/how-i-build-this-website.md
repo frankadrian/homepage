@@ -14,7 +14,7 @@ This post outlines how I initially built this website, using a couple of service
 
 Tools I use:
 
-* [hugo](https://gohugo.io/) with the [hugo nuo theme](https://github.com/laozhu/hugo-nuo)
+* [hugo](https://gohugo.io/) using the [nuo theme](https://github.com/laozhu/hugo-nuo)
 * github
 * [forestry](https://forestry.io/)
 * AWS
