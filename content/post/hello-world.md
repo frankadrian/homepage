@@ -1,7 +1,7 @@
 ---
 title: Hello World!!
 author: Frank Adrian
-cover: "/uploads/hello world.png"
+cover: "/uploads/hello world-1.png"
 tags:
 - hello world
 date: 2018-11-09 17:43:15 +0000
