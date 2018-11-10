@@ -40,3 +40,5 @@ is used to allow editing of the content via a simple CMS web interface.
 ### AWS
 
 is used to host the website. Since it is a static website any CDN provider can be used in place here. Since forestry integrates very nicely with AWS (yes, it 2 clicks and adding your Bucket, Access Key and Secret 😲) and because i am a AWS fan I decided to use this.
+
+## Piecing them together
