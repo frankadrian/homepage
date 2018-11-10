@@ -1,7 +1,7 @@
 +++
 author = "Frank Adrian"
 comments = false
-cover = ""
+cover = "/uploads/how i build this website.png"
 date = "2018-11-10T13:13:38+00:00"
 draft = true
 tags = ["web development", "aws", "hugo"]
@@ -42,3 +42,35 @@ is used to allow editing of the content via a simple CMS web interface.
 is used to host the website. Since it is a static website any CDN provider can be used in place here. Since forestry integrates very nicely with AWS (yes, it 2 clicks and adding your Bucket, Access Key and Secret 😲) and because i am a AWS fan I decided to use this.
 
 ## Piecing them together
+
+### Create your custom website
+
+install hugo and generate a new site
+
+    brew install hugo
+    
+    hugo new site homepage
+
+Install the theme as a submodule
+
+    git submodule add https://github.com/laozhu/hugo-nuo themes/hugo-nuo
+
+follow instructions here to configure an example site: [https://github.com/laozhu/hugo-nuo#getting-started](https://github.com/laozhu/hugo-nuo#getting-started "https://github.com/laozhu/hugo-nuo#getting-started")
+
+commit all files (see example [.gitignore](https://github.com/frankadrian/homepage/blob/master/.gitignore)) and push to github
+
+### Create content for your website
+
+signup at forestry and import your github repository. This will create your project and allows you to directly change the contents on your website if you followed the instructions to create the example site.
+
+### Setup hosting
+
+I used this [aws cloudformation stack](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=my-static-site&templateURL=https%3a%2f%2fs3.amazonaws.com%2fforestryio-cf-templates%2fstatic-site-hosting%2fadvanced-route53-acm.yml) to create everything on the aws front. This requires you have a domain setup and validated on Route 53 with a Domain Zone setup.
+
+### Setup Deployment
+
+On forestry go to _Settings -> Deployment_ and enter your _user access key_ and _secret_ as well as the _S3 bucket_.
+
+Go to _Settings -> General_ and make sure to switch _Deploy to github_ on
+
+This automatically deploys your changes to S3 on every change you make in forestry (or the github repository) Pretty sweet if you ask me 🤓
