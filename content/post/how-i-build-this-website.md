@@ -1,7 +1,7 @@
 +++
 author = "Frank Adrian"
 comments = true
-cover = "/uploads/how i build this website.png"
+cover = "/uploads/how i build this website-1.png"
 date = "2018-11-10T13:13:38+00:00"
 tags = ["web development", "aws", "hugo"]
 title = "How I build this website"
