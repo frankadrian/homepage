@@ -1,0 +1,50 @@
+<footer class="site-footer">
+  <p>© {{ now.Year }} Frank Adrian</p>
+  <p>Powered by <a href="{{ .Site.BaseURL }}post/how-i-build-this-website">Hugo with theme Nuo</a>.</p>
+  {{ if and (isset .Site.Params "icp") (ne .Site.Params.ICP "") }}
+    <p><a href="http://www.miitbeian.gov.cn" title="Check ICP info" target="_blank">{{ .Site.Params.ICP }}</a></p>
+  {{ end }}
+</footer>
+
+<!-- Scripts -->
+{{ if ne .Kind "home" }}
+<script async src="///cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
+<script async src="//cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.min.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+{{ end }}
+{{ $script := resources.Get "scripts/index.js" | resources.Minify }}
+<script src="{{ $script.RelPermalink }}"></script>
+{{ if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+{{ if isset .Site.Params "baidutongji" }}
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?{{ .Site.Params.baiduTongji }}";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+{{ end }}
