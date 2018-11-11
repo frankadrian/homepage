@@ -70,11 +70,11 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
   # Google Webmaster
   # https://www.google.com/webmasters/
-  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+  googleSiteVerification = "nlH6yr9n7vIhdSD6cVxKD8BnxF-S5l7O8edNGLbNMm0"
 
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
-  msValidate = "22596E34341DD1D17D6022C44647E587"
+  # msValidate = "22596E34341DD1D17D6022C44647E587"
 
   # Baidu Webmaster (China Only)
   # https://zhanzhang.baidu.com/
