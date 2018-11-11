@@ -1,0 +1,23 @@
+---
+label: project
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: name
+  label: Name
+  config:
+    required: true
+- type: file
+  label: cover image
+  name: cover_image
+- type: tag_list
+  name: tags
+  label: tags
+- type: textarea
+  name: description
+  label: description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
