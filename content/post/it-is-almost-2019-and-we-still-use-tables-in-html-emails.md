@@ -8,8 +8,10 @@ tags = ["web development", "html mails"]
 title = "It is almost 2019 and we still use tables in html emails"
 
 +++
-Seriously, whyyy???
+Seriously, whyyy??? 🤬🤬😡
 
 [https://litmus.com/community/discussions/7148-how-litmus-didn-t-use-tables-for-its-first-email-newsletter-of-2018](https://litmus.com/community/discussions/7148-how-litmus-didn-t-use-tables-for-its-first-email-newsletter-of-2018 "https://litmus.com/community/discussions/7148-how-litmus-didn-t-use-tables-for-its-first-email-newsletter-of-2018")
 
-Rage
+So this is the current state:
+
+We can do one column email layouts without using any tables. That seems slower progress than ...
