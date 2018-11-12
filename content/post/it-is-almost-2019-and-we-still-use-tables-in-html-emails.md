@@ -3,7 +3,6 @@ author = "Frank Adrian"
 comments = true
 cover = ""
 date = "2018-11-12T15:18:09+00:00"
-draft = true
 tags = ["web development", "html mails"]
 title = "It is almost 2019 and we still use tables in html emails"
 
@@ -14,4 +13,4 @@ Seriously, whyyy??? 🤬🤬😡
 
 So this is the current state:
 
-We can do one column email layouts without using any tables. That seems slower progress than ...
+We can do one column email layouts without using any tables. And its all because Microsoft Outlook uses Word to render html mails..
