@@ -1,7 +1,6 @@
 +++
 cover = "/uploads/namcf.png"
-date = "2018-11-12T18:48:20+00:00"
-draft = true
+date = "2018-08-31T22:00:00+00:00"
 title = "Namibian Cycling Federation"
 url = "http://namcf.org/"
 
