@@ -34,4 +34,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/it-is-almost-2019-and-we-still-use-tables-in-html-emails.md
 - content/post/how-i-build-this-website.md
