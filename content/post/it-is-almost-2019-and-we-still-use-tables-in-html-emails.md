@@ -1,6 +1,6 @@
 +++
 author = "Frank Adrian"
-comments = false
+comments = true
 cover = ""
 date = "2018-11-12T15:18:09+00:00"
 draft = true
