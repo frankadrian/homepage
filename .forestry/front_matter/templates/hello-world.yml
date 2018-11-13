@@ -34,5 +34,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/aws-code-deploy-angular-builds-using-code-build.md
 - content/post/it-is-almost-2019-and-we-still-use-tables-in-html-emails.md
 - content/post/how-i-build-this-website.md
