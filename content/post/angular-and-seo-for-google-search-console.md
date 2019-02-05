@@ -1,7 +1,7 @@
 +++
 author = "Frank Adrian"
 comments = true
-cover = ""
+cover = "/uploads/AngularJS-SEO-Optimization.png"
 date = "2019-02-04T23:00:00+00:00"
 tags = ["angular", "web-development"]
 title = "Angular and SEO for google search console"
