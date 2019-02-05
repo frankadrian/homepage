@@ -25,3 +25,5 @@ It is even noted in the polyfills.ts (if you use the angular cli) that the follo
 
 After enabling these, the page was rendered immediately by the Google Search Console.  
 ![Google Search Console rendered results](/uploads/Screenshot 2019-02-05 at 14.49.47.png "Google Search Console rendered results")
+
+Hopefully this can help you if you want an Angular Webpage to be indexed by Google SearchBot.
