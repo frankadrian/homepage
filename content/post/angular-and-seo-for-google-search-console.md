@@ -9,7 +9,7 @@ title = "Angular and SEO for google search console"
 +++
 It is 2019 and Google is able to index website build using Javascript frameworks like React, Angular or AngularJS.
 
-Recently I got the following preview for a website which was build using Angular 7 and google show this as a preview:
+Recently I got the following preview for a website which was build using Angular 7 and google show this as a preview: (blank screen for "This is how Googlebot saw the page:" and "This is how a visitor to your website would have seen the page:")
 
 ![Google search console rendering preview](/uploads/Screenshot 2019-02-05 at 14.32.43.png "Google search console rendering preview")
 
