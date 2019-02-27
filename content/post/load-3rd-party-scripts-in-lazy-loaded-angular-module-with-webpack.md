@@ -23,11 +23,11 @@ It turned out to be rather easy to do this with `script-loader` npm package.
 
 3) import the script(s) at the top of the file or module you need it: 
 
-    import 'script-loader!../../../streamtime/scripts/libs/fabric.js';
+    import 'script-loader!../../../scripts/libs/fabric.js';
 
     import 'script-loader!../../../../node_modules/tui-code-snippet/dist/tui-code-snippet.js';
 
-    import 'script-loader!../../../streamtime/scripts/libs/tui-image-editor.js';
+    import 'script-loader!../../../scripts/libs/tui-image-editor.js';
 
 (We had some scripts saved locally and some in node_modules. This approach works for both use cases).
 
