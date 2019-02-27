@@ -15,7 +15,7 @@ For this we needed to migrate our ImageEditor module which allows users to custo
 
 Since this module is not needed on bootstrap we decided to lazy load it and wanted to have the vendors lazy load as well to optimise our apps startup time.
 
-It turned out to be rather easy to do this with `script-loader` npm package.
+It turned out to be rather easy to do this with `script-loader` npm package:
 
 1) Install it by running `npm install script-loader --save-dev` 
 
