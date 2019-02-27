@@ -8,3 +8,18 @@ tags = ["angular", "web-development", "webpack", "typescript"]
 title = "Lazy Load 3rd party scripts in lazy loaded Angular module with webpack"
 
 +++
+# How to load 3rd party scripts globally in Angular using Typescript and webkit
+
+  
+We are busy migrating our web app from AngularJS 1.6 all the way up to Angular 7.   
+For this we needed to migrate our ImageEditor module which allows users to customise images in the web app. For this module we relied on the TUI image editor plugin. 
+
+Since this module is not needed on bootstrap we decided to lazy load it and wanted to have the vendors lazy load as well to optimise our apps startup time.
+
+It turned out to be rather easy to do this with `script-loader` npm package.
+
+1) Install it by running `npm install script-loader --save-dev` 
+
+2) Remove loaded scripts from `angular.json` scripts array
+
+3) import the script at the top of the file or module you need it: `**import**` `'script-loader!../../../streamtime/scripts/libs/fabric.js';`  
