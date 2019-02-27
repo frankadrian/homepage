@@ -32,3 +32,5 @@ It turned out to be rather easy to do this with `script-loader` npm package:
 (We had some scripts saved locally and some in node_modules. This approach works for both use cases).
 
 This loads the specified script into the global window namespace and hence is also available to other vendors that require the global namespace (in this case `tui`) to be present.
+
+The advantage of this approach is that we still benefit from tree shaking when we build the project using the angular cli.
