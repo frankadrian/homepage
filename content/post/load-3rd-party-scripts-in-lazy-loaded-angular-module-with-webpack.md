@@ -3,7 +3,7 @@ author = "Frank Adrian"
 comments = true
 cover = ""
 date = "2019-02-26T23:00:00+00:00"
-tags = ["angular", "web-development", "webpack", "typescript"]
+tags = ["angular", "web-development", "webpack", "typescript", "script-loader"]
 title = "Lazy Load 3rd party scripts in lazy loaded Angular module with webpack"
 
 +++
