@@ -5,4 +5,4 @@ title = "Calisthenics Counter"
 url = "//calisthenics-counter.com"
 
 +++
-Test to see if I can build my own rep counting website for Calisthenics.
+Simple rep counter for Calisthenics. Supports real time data synchronisation and offline tracking of activities. 
