@@ -7,7 +7,7 @@ tags = ["angular", "web-development", "webpack", "typescript", "script-loader"]
 title = "Lazy Load 3rd party scripts in lazy loaded Angular module with webpack"
 
 +++
-# How to lazy load 3rd party scripts globally in Angular using Typescript and webkit
+# How to lazy load 3rd party scripts globally in Angular using Typescript and webpack
 
 We are busy migrating our web app from AngularJS 1.6 all the way up to Angular 7.  
 For this we needed to migrate our ImageEditor module which allows users to customise images in the web app. For this module we relied on the [TUI image editor](https://github.com/nhnent/tui.image-editor) plugin.
