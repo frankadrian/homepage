@@ -1,7 +1,7 @@
 +++
 author = "Frank Adrian"
 comments = true
-cover = ""
+cover = "/uploads/Easy setup of yootheme worpress on aws lightsail.png"
 date = "2019-05-20T16:36:00+00:00"
 tags = ["wordpress", "yootheme"]
 title = "Easy setup of yootheme worpress on aws lightsail"
