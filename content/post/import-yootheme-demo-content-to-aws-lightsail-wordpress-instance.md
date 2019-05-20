@@ -19,4 +19,5 @@ title = "Import Yootheme demo content to aws lightsail wordpress instance"
  7. rename to htdocs: sudo mv \~/apps/wordpress/lilian_demo_package_wp \~/apps/wordpress/htdocs
  8. sudo cp \~/wp-config.php.bck \~/apps/wordpress/htdocs/wp-config.php
  9. sudo chown -R bitnami:daemon \~/apps/wordpress/htdocs/
-10. `sudo /opt/bitnami/apps/wordpress/bnconfig --disable_banner 1`
+10. `sudo /opt/bitnami/apps/wordpress/bnconfig --disable_banner 1 && `sudo /opt/bitnami/ctlscript.sh restart apache
+11. 
