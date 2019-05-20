@@ -3,12 +3,13 @@ author = "Frank Adrian"
 comments = false
 cover = ""
 date = ""
-draft = true
 tags = []
 title = "Import Yootheme demo content to aws lightsail wordpress instance"
 
 +++
 # Easy setup of yootheme worpress on aws lightsail
+
+### Setup AWS lightsail wordpress instance
 
 1. Lauch aws light sail instance
 2. connect via ssh
