@@ -1,9 +1,9 @@
 +++
 author = "Frank Adrian"
-comments = false
+comments = true
 cover = ""
-date = ""
-tags = []
+date = "2019-05-20T16:36:00+00:00"
+tags = ["wordpress", "yootheme"]
 title = "Easy setup of yootheme worpress on aws lightsail"
 
 +++
