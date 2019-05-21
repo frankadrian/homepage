@@ -3,11 +3,11 @@ author = "Frank Adrian"
 comments = true
 cover = "/uploads/AngularJS-SEO-Optimization.png"
 date = "2019-02-04T23:00:00+00:00"
-tags = ["angular", "web-development"]
+tags = ["angular", "web-development", "seo"]
 title = "Angular and SEO for google search console"
 
 +++
-# It is 2019 and Google is able to index website build using Javascript frameworks like React, Angular or AngularJS.
+# How to render Angular page for google search bot
 
 Recently I got the following preview for a website which was build using Angular 7.
 
