@@ -3,7 +3,6 @@ author = "Frank Adrian"
 comments = false
 cover = ""
 date = "2019-05-21T22:00:00+00:00"
-draft = true
 tags = ["aws-lambda", "nodejs", "angular-ssr"]
 title = "Error: connect ENOENT with nodejs lambda angular ssr"
 
@@ -26,6 +25,16 @@ This error kept showing up when accessing our lambda serverless angular build fr
     	address: '/tmp/server-q2r7kv33bik.sock' 
      }
 
-The Api Gateway simply returned an 502 response code. 
+The Api Gateway simply returned an 502 response code.
 
 ![](/uploads/502-error.png)
+
+## The Solution
+
+was to return a promise from the `awsServerlessExpress.proxy()` call in the lambda handler and declare the function as async:
+
+    module.exports.universal = async (event, context) => {
+      return awsServerlessExpress.proxy(serverProxy, event, context, 'PROMISE').promise;
+    };
+
+Also make sure you are using at least version 8 of nodejs to support async/await.
