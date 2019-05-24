@@ -31,10 +31,19 @@ The Api Gateway simply returned an 502 response code.
 
 ## The Solution
 
-was to return a promise from the `awsServerlessExpress.proxy()` call in the lambda handler and declare the function as async:
+was not very obvious at first, but once we found the problem it was a quick fix:  
+We are heavily relying on localStorage in our Angular Application and so had to mock this part in order to enable Server Side Rendering of our webpage. For this purpose exists this awesome [node-localstorage](https://www.npmjs.com/package/node-localstorage) package. What this does is create a file on your local filesystem and use this file as a localStorage store.
 
-    module.exports.universal = async (event, context) => {
-      return awsServerlessExpress.proxy(serverProxy, event, context, 'PROMISE').promise;
-    };
+Here we specified /tmp as the location to write this store:
 
-Also make sure you are using at least version 8 of nodejs to support async/await.
+    let localStorage = new LocalStorage('/tmp');
+
+Because this script runs as a NodeJS Lambda function, /tmp is the temp directory of this function which happens to be shared across multiple function executions that don't require a cold start. 
+
+This is the reason we only experienced this Error when multiple clients requested our webpage at more of less the same time, As for the second invocation Lambda shared the /tmp directory which was now only a file containing our LocalStorage data. And so the server could not connect to /tmp/server-q2r7kv33bik.sock anymore.
+
+So changing our LocalStorage initialisation to something like:
+
+    let localStorage = new LocalStorage('/tmp/localStorage');
+
+did the trick and we no longer experienced the 502 errors.
