@@ -16,7 +16,6 @@ googleAnalytics = "UA-129031052-1"
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
 
-customCSS = ["theme-overwrite/overwrite.scss"]
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
@@ -46,6 +45,7 @@ customCSS = ["theme-overwrite/overwrite.scss"]
   subtitle = "Freelance Web Developer with ♡ for Frontends"
   description = "This is my personal webspace. Look at the projects I am involved in and get in touch  with me"
   paginate = 10
+  customStyle = "styles/custom.scss"
 
   # Choose your social networks
   email = "me@frankadrian.net"
