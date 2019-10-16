@@ -1,7 +1,6 @@
 +++
 author = "Frank Adrian"
 comments = false
-cover = ""
 date = "2018-11-13T17:13:25+00:00"
 draft = true
 tags = ["web development", "aws", "angular", "code deploy", "code build"]

@@ -1,7 +1,6 @@
 +++
 author = "Frank Adrian"
 comments = false
-cover = ""
 date = "2019-05-21T22:00:00+00:00"
 tags = ["aws-lambda", "nodejs", "angular-ssr"]
 title = "Error: connect ENOENT with nodejs lambda angular ssr"

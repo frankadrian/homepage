@@ -1,8 +1,7 @@
 +++
 author = "Frank Adrian"
 comments = true
-cover = ""
-date = "2019-01-30T23:00:00+00:00"
+adate = "2019-01-30T23:00:00+00:00"
 tags = ["web-development", "aws", "lambda", "sitemap-generator"]
 title = "nodejs lambda sitemap generator "
 
