@@ -1,7 +1,9 @@
 <article class="project-entry">
   <header class="project-header">
     {{ if isset .Params "cover" }}
-    <img class="project-cover" src="{{ .Params.cover }}" alt="{{ .Title }}">
+    <a href="{{ .Params.externalurl }}" class="project-link">
+      <img class="project-cover" src="{{ .Params.cover }}" alt="{{ .Title }}">
+    </a>
     {{ end }}
 
     <h3 class="project-title"><a href="{{ .Params.externalurl }}" class="project-link">{{ .Title }}</a></h3>
