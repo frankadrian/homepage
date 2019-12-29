@@ -3,7 +3,6 @@ author = "Frank Adrian"
 comments = true
 cover = "/uploads/IMG_B15F4C34246A-1.jpeg"
 date = 2019-12-28T23:00:00Z
-draft = true
 tags = ["macos", "ios", "android"]
 title = "Connect to your WiFi with a QR code"
 
