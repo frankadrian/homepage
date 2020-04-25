@@ -1,13 +1,15 @@
 
-name = "John Doe"
+name = "Frank Adrian"
 
 # These two variable definitions need to go before [contact], etc.
 languages = [
-  "English (native)",
-  "Chinese (conversational)"
+  "German (native)",
+  "English (conversational)",
+  "Afrikaans (conversational)"
 ]
 
 interests = [
+  "Cycling",
   "Photography",
   "Web development"
 ]
@@ -16,23 +18,18 @@ interests = [
 
   [[contact.list]]
     class = "email"
-    url = "mailto:example@domain.com"
-    title = "example@domain.com"
-
-  [[contact.list]]
-    class = "phone"
-    url = "tel:123-456-7890"
-    title = "+1 (123) 456-7890"
+    url = "mailto:fa@frankadrian.net"
+    title = "fa@frankadrian.net"
 
   [[contact.list]]
     class = "github"
-    url = "//github.com/username"
-    title = "github.com/username"
+    url = "//github.com/frankadrian"
+    title = "github.com/frankadrian"
 
   [[contact.list]]
     class = "website"
-    url = "//domain.com"
-    title = "domain.com"
+    url = "//frankadrian.net"
+    title = "frankadrian.net"
 
 [education]
 
