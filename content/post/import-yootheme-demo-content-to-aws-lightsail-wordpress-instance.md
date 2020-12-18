@@ -2,7 +2,7 @@
 author = "Frank Adrian"
 comments = true
 cover = "/uploads/Easy setup of yootheme worpress on aws lightsail.png"
-date = "2019-05-20T16:36:00+00:00"
+date = 2019-05-20T16:36:00Z
 tags = ["wordpress", "yootheme"]
 title = "Easy setup of yootheme worpress on aws lightsail"
 
@@ -13,7 +13,8 @@ title = "Easy setup of yootheme worpress on aws lightsail"
 
 1. Lauch aws light sail instance
 2. connect via ssh
-3. `sudo /opt/bitnami/apps/wordpress/bnconfig --disable_banner 1 && `sudo /opt/bitnami/ctlscript.sh restart apache
+3. `sudo /opt/bitnami/apps/wordpress/bnconfig --disable_banner 1 && sudo /opt/bitnami/ctlscript.sh restart apache`
+4. to enable https: `sudo /opt/bitnami/bncert-tool` and follow the prompts
 
 ### Install "YooTheme pro" theme
 
