@@ -1,5 +1,6 @@
 @import "partials/project-entry";
 @import "partials/project-list";
+$family-monospace: "Fira Code", "Roboto Mono", Menlo, Monaco, Consolas, "Courier New", Courier, monospace;
 
 .avatar {
   &:hover {
@@ -9,4 +10,8 @@
 
 .site-header a{
   opacity: 1;
+}
+
+.title {
+  font-family: $family-monospace;
 }
