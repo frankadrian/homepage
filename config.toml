@@ -11,7 +11,7 @@ canonifyurls = true
 disqusShortname = "frankadrian-net"
 
 # Google Analytics UA number
-googleAnalytics = "UA-129031052-1"
+# googleAnalytics = ""
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
@@ -52,10 +52,10 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   github = "frankadrian"
   instagram = "thinkwin_win"
   facebook = "myuniversum"
- 
+
   twitter = "frank_adrian"
   linkedin = "frank-adrian-519b8333"
-  
+
   #weibo = "weibo_username"
   #wechat= "/images/qrcode.jpg" # Replace with your wechat qrcode image
   # google = "googlplus_id_number"
