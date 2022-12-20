@@ -1,6 +1,6 @@
 baseURL = "https://frankadrian.net/"
 languageCode = "en-us"
-title = "Welcome"
+title = "Frank Adrian"
 
 theme = "hugo-nuo"
 enableRobotsTXT = true
@@ -40,9 +40,9 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 # Add your own params here
 [params]
   author = "Frank Adrian"
-  avatar = "/images/avatar.jpeg"
+  avatar = "/images/avatar.jpg"
   seotitle = "Frank Adrian"
-  subtitle = "Freelance Angular Expert from Hamburg, Germany"
+  subtitle = "(Mostly) Fullstack WebDev from Hamburg, Germany"
   description = "This is my personal webspace. Have a look at the projects I am involved in and get in touch with me"
   paginate = 10
   customStyle = "styles/custom.scss"

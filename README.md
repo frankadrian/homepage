@@ -1,7 +1,7 @@
 Website / Blog for frankadrian.net
 
 
-- build using hugo
+- build using hugo v 0.108.0
 
 
 
