@@ -40,7 +40,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 # Add your own params here
 [params]
   author = "Frank Adrian"
-  avatar = "/images/avatar.jpg"
+  avatar = "/images/avatar.jp2"
   seotitle = "Frank Adrian"
   subtitle = "(Mostly) Fullstack WebDev from Hamburg, Germany"
   description = "This is my personal webspace. Have a look at the projects I am involved in and get in touch with me"
