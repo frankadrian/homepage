@@ -5,7 +5,14 @@ date: 2018-10-15T16:07:13.000+00:00
 externalurl: https://frankadrian.net
 
 ---
-Cut out summary from your post content here.
+
+Read this article for an overview of how i setup this homepage.
+
+
+##### Technologies used:
+
+- Hugo as static cms
+- AWS S3 with cloudfront
 
 <!--more-->
 
