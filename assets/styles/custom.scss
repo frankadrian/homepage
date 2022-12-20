@@ -3,6 +3,7 @@
 $family-monospace: "Fira Code", "Roboto Mono", Menlo, Monaco, Consolas, "Courier New", Courier, monospace;
 
 .avatar {
+  object-fit: cover;
   &:hover {
     transform: unset;
   }
