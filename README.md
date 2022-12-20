@@ -5,6 +5,12 @@ Website / Blog for frankadrian.net
 
 
 
+## To write
+
+generate a new post:
+-  hugo new post/this-is-a-new-post.md
+
+
 ## Deployment
 
 - aws s3 bucket
