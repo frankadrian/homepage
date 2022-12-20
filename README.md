@@ -20,4 +20,6 @@ Website / Blog for frankadrian.net
 
 ## To deploy
 
-- 
+Push to the master branch and a github action will build and deploy to an S3 bucket.
+
+
