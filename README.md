@@ -14,7 +14,8 @@ generate a new post:
 ## Deployment
 
 - aws s3 bucket
-- 
+
+Push to the master branch and a github action will build and deploy to an S3 bucket.
 
 
 
@@ -24,8 +25,5 @@ generate a new post:
 - run `hugo serve`
 
 
-## To deploy
-
-Push to the master branch and a github action will build and deploy to an S3 bucket.
 
 
