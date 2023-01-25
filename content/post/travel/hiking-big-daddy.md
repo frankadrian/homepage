@@ -3,8 +3,8 @@ title: "Hiking Guide for Big Daddy (Dune 47)"
 author: "Frank Adrian"
 cover: "/uploads/dead_vlei_with_dead_camel_thorn_threes.jpeg"
 tags: ["travel", "namibia"]
-date: 2023-01-09T13:06:25+02:00
-draft: true
+date: 2023-01-25T13:06:25+02:00
+draft: false
 ---
 
 Sossusvlei has become one of Namibia's main tourist attractions. It is located in the South Western part of the Country
@@ -66,8 +66,7 @@ Once you reached the 4x4 parking spot you can get ready to start your hike.
 
 
 
-
-## What to except:
+## What to except
 
 Most people first visit Dune 45, which is on the way to Sossusvlei, and from here they continue to Dune 47, which
 apparently is the highest Dune in the World. Dune 47 is also called Big Daddy because of its size.
