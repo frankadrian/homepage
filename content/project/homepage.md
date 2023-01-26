@@ -2,11 +2,11 @@
 title: Homepage
 cover: "/uploads/how i build this website-1.png"
 date: 2018-10-15T16:07:13.000+00:00
-externalurl: https://frankadrian.net
+externalurl: /post/how-i-build-this-website/
 
 ---
 
-Read this article for an overview of how i setup this homepage.
+Read this article for an overview of how I set up this homepage.
 
 
 ##### Technologies used:
