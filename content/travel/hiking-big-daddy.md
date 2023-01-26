@@ -5,6 +5,7 @@ cover: "/uploads/dead_vlei_with_dead_camel_thorn_threes.jpeg"
 tags: ["travel", "namibia"]
 date: 2023-01-25T13:06:25+02:00
 draft: false
+type: post
 ---
 
 Sossusvlei has become one of Namibia's main tourist attractions. It is located in the South Western part of the Country
