@@ -4,20 +4,22 @@ comments = true
 cover = "/uploads/EÜR-lexoffice-to-smartsteuer.png"
 date = 2023-10-06T20:27:00Z
 tags = ["buchhaltung", "EÜR", "freelancer", "lexoffice", "smartsteuer"]
-title = "Buchhaltung & Steuern als Freelancer selber machen mit lexoffice & smartsteuer"
+title = "Buchhaltung & Steuern als Freelancer selber machen mit Lexoffice & Smartsteuer"
 
 +++
-# Buchhaltung & Steuern als Freelancer selber machen mit lexoffice & smartsteuer
+# Buchhaltung & Steuern als Freelancer selber machen mit Lexoffice & Smartsteuer
 
 Als Freelancer ist man verpflichtet eine rechtskonforme Finanzbuchhaltung zu führen.
-Es bestehen weitere pflichten wie die EÜR in der Steuererklärung zu erklären und ggf. pflichten für eine monatliche Umsatzsteuer Voranmeldung (UmStVam)
+Es bestehen weitere Pflichten wie die EÜR in der Steuererklärung zu erklären und ggf. Pflichten für eine monatliche 
+Umsatzsteuer-Voranmeldung (UStVA)
 
-Diese 3 Punkte kann man mit der kombination lexoffice und Smartsteuer mit ein paar wenigen clicks selber erledigen.
+Diese 3 Punkte kann man mit der Kombination lexoffice und Smartsteuer mit ein paar wenigen Clicks selber erledigen.
 
-lexoffice hilft dabei die FiBu gesetzeskonform zu erledigen, zudem kann man mit ein paar clicks die Umsatzsteuervoranmeldung direkt an das zuständige Finanzamt versenden werden.
+Lexoffice hilft dabei die FiBu gesetzeskonform zu erledigen, zudem kann mit ein Paar Clicks die 
+Umsatzsteuervoranmeldung direkt an das zuständige Finanzamt versendet werden.
 
-
-Um den Jahresabschluss zu erledigen kann eine "Amtliche EÜR" erstellt werden und direkt nach Smartsteuer [exportiert](https://www.lexoffice.de/partner/smartsteuer/) werden.
+Um den Jahresabschluss zu erledigen kann eine "Amtliche EÜR" erstellt werden und direkt nach 
+Smartsteuer [exportiert](https://www.lexoffice.de/partner/smartsteuer/) werden.
 
 
 Mit Smartsteuer kann man seine persönliche Steuererklärung problemlos selber erledigen.
