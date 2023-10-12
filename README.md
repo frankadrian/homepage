@@ -1,4 +1,7 @@
-Website / Blog for frankadrian.net
+
+# Website / Blog for frankadrian.net
+
+[![Deploy Hugo site to Pages](https://github.com/frankadrian/homepage/actions/workflows/hugo.yml/badge.svg)](https://github.com/frankadrian/homepage/actions/workflows/hugo.yml)
 
 
 - build using hugo v 0.108.0

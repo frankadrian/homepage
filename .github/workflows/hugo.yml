@@ -51,8 +51,7 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --minify
       - name: Upload artifact to S3
         uses: shallwefootball/s3-upload-action@master
         with:
