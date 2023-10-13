@@ -2,7 +2,7 @@
 title: "Hiking Guide for Big Daddy (Dune 47)"
 author: "Frank Adrian"
 cover: "/uploads/dead_vlei_with_dead_camel_thorn_threes.jpeg"
-tags: ["travel", "namibia"]
+tags: ["travel", "namibia", "big daddy", "dune 47","hiking"]
 date: 2023-01-25T13:06:25+02:00
 draft: false
 type: post
