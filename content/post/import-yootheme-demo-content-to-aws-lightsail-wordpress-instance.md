@@ -4,10 +4,9 @@ comments = true
 cover = "/uploads/Easy setup of yootheme worpress on aws lightsail.png"
 date = 2019-05-20T16:36:00Z
 tags = ["wordpress", "yootheme"]
-title = "Easy setup of yootheme worpress on aws lightsail"
+title = "Easy setup of yootheme wordpress on aws lightsail"
 
 +++
-# Easy setup of yootheme worpress on aws lightsail
 
 ### Setup AWS lightsail wordpress instance
 
