@@ -3,11 +3,9 @@ author = "Frank Adrian"
 comments = false
 date = "2019-05-21T22:00:00+00:00"
 tags = ["aws-lambda", "nodejs", "angular-ssr"]
-title = "Error: connect ENOENT with nodejs lambda angular ssr"
+title = "AWS Lambda Error: connect ENOENT /tmp/server-*.sock with nodejs lambda angular ssr"
 
 +++
-# AWS Lambda Error: connect ENOENT /tmp/server-*.sock
-
 ## Background
 
 We have a SSR Angular application hosted on AWS. The Lambda function renders the requested page in front of an Api Gateway. We use [serverless](https://serverless.com/) and an nodejs express server to render the requested page or resource.

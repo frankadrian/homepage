@@ -7,7 +7,6 @@ tags = ["macos", "ios", "android"]
 title = "Connect to your WiFi with a QR code"
 
 +++
-# Connect to your WiFi with a QR code
 
 It's possible to generate a QR code that you can use to connect to the WiFi without having to manually enter the password. To do this you can use this [open-source](https://github.com/evgeni/qifi "https://github.com/evgeni/qifi") [website](https://qifi.org/ "https://qifi.org/"), or preferably, you can use the `qrencode` cli tool.
 

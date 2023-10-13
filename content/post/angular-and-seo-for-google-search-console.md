@@ -7,7 +7,7 @@ tags = ["angular", "web-development", "seo"]
 title = "Angular and SEO for google search console"
 
 +++
-# How to render Angular page for google search bot
+## How to render Angular page for google search bot
 
 Recently I got the following preview for a website which was build using Angular 7.
 

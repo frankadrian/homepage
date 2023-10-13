@@ -8,8 +8,6 @@ title = "Buchhaltungs tool vergleich für Freelancer"
 draft = true
 +++
 
-# Buchhaltung tools vergleich für Freelancer
-
 ## Was benötigen Freelancer für eine konforme Buchhaltung
 - doppelte buchhaltung
 

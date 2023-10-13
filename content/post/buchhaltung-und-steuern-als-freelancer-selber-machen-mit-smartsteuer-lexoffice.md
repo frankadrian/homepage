@@ -7,8 +7,6 @@ tags = ["buchhaltung", "EÜR", "freelancer", "lexoffice", "smartsteuer"]
 title = "Buchhaltung & Steuern als Freelancer selber machen mit Lexoffice & Smartsteuer"
 
 +++
-# Buchhaltung & Steuern als Freelancer selber machen mit Lexoffice & Smartsteuer
-
 Als Freelancer ist man verpflichtet eine rechtskonforme Finanzbuchhaltung zu führen.
 Es bestehen weitere Pflichten wie die EÜR in der Steuererklärung zu erklären und ggf. Pflichten für eine monatliche 
 Umsatzsteuer-Voranmeldung (UStVA)

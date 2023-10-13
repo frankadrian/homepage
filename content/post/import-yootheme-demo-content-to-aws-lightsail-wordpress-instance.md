@@ -8,8 +8,6 @@ title = "Easy setup of yootheme wordpress on aws lightsail"
 
 +++
 
-### Setup AWS lightsail wordpress instance
-
 1. Lauch aws light sail instance
 2. connect via ssh
 3. `sudo /opt/bitnami/apps/wordpress/bnconfig --disable_banner 1 && sudo /opt/bitnami/ctlscript.sh restart apache`

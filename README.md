@@ -7,7 +7,6 @@
 - build using hugo v 0.108.0
 
 
-
 ## To write
 
 generate a new post:
