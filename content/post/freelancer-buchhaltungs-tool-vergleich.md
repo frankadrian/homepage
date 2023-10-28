@@ -1,7 +1,7 @@
 +++
 author = "Frank Adrian"
 comments = true
-cover = "/uploads/"
+cover = "/uploads/bookkeeping-615384_1280.jpg"
 date = 2023-10-28T00:35:00+02:00
 tags = ["buchhaltung", "EÜR", "freelancer", "lexoffice", "smartsteuer"]
 title = "Buchhaltungs tool vergleich für Freelancer"
