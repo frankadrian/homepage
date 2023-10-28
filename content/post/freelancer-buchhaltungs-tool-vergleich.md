@@ -2,14 +2,17 @@
 author = "Frank Adrian"
 comments = true
 cover = "/uploads/"
-date = 2023-10-22T00:35:00+02:00
+date = 2023-10-28T00:35:00+02:00
 tags = ["buchhaltung", "EÜR", "freelancer", "lexoffice", "smartsteuer"]
 title = "Buchhaltungs tool vergleich für Freelancer"
-draft = true
+draft = false
+customClass = "widerr"
 +++
 
 ## Was benötigen Freelancer für eine konforme Buchhaltung
-- doppelte buchhaltung
+
+Als freiberufler kann man von der einfachen Buchführung Gebrauch machen.
+Hierfür ist eine einfache Einnahmenüberschussrechnung notwendig wo sämtliche Geschäftsvorfälle chronologisch erfasst werden.
 
  
 
@@ -26,20 +29,22 @@ draft = true
 - **Fremdwährungen**: 
   - **Rechnung**: Können Rechnungen in Fremdwährungen erstellt werden?
   - **Belege**: Können Belege in Fremdwährungen verbucht werden?
-- Steuerberater notwendig:
+- **Steuerberater**:
   - ist ein steuerberater notwendig um den Jahresabschluss zu erstellen?
   - Steuerberater zugang?
-
+- **Anlagen verwaltung**:
+  - können anlagen verwaltet werden?
 
 # Vergleich
 
 
-| Software Name                                                                                                                 | Umsatzsteuervoranmeldung | EÜR                          | Umsatzsteuererklärung | Bank verlauf automatisch importieren | Mehrere Konten | Automatische Belegerkennung | Fremd-währungen | Steuerberater notwendig? | Steuerberater Zugang |
-|-------------------------------------------------------------------------------------------------------------------------------|-------------------------|------------------------------|-----------------------|--------------------------------------|----------------|-----------------------------|-----------------|--------------------------|----------------------|
-| [lexoffice](https://www.awin1.com/awclick.php?gid=368497&mid=13787&awinaffid=1456770&linkid=2440761&clickref=)                | ja                      | √ mit smartsteuer            | √ mit smartsteuer     | √                                    | √              | √                           | nein            | nein                     | ja                   |
-| [Buchhaltungsbutler](https://www.awin1.com/awclick.php?gid=460510&mid=32115&awinaffid=1456770&linkid=3354560&clickref=)       | ja                      | keine automatische übernahme | nein                  | ja                                   | ja             |                             | ja              |                          | ja                   |
-| Kontolino!                                                                                                                    |                         |                              |                       |                                      |                |                             |                 |                          |                      |
-| [papierkram](https://www.awin1.com/awclick.php?gid=426184&mid=25390&awinaffid=1456770&linkid=3017980&clickref=)               |                         |                              |                       |                                      |                |                             |                 |                          |                      |
-| FastBill                                                                                                                      |                         |                              |                       |                                      |                |                             |                 |                          |                      |
-| [Sage](https://www.awin1.com/awclick.php?gid=400001&mid=11752&awinaffid=1456770&linkid=2739676&clickref=)                     |                         |                              |                       |                                      |                |                             |                 |                          |                      |
-| sevdesk                                                                                                                       |                         |                              |                       |                                      |                |                             |                 |                          |                      |
+| Name                                                                                                                    | Umsatzsteuervoranmeldung | EÜR                                                      | Umsatzsteuererklärung | Bank verlauf automatisch importieren                                                                                                                     | Mehrere Konten | Automatische Belegerkennung | Fremd-währungen  | Steuerberater notwendig? | Steuerberater Zugang | Anlagen verwalten |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------|----------------------------------------------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|-----------------------------|------------------|--------------------------|----------------------|-------------------|
+| [lexoffice](https://www.awin1.com/awclick.php?gid=368497&mid=13787&awinaffid=1456770&linkid=2440761&clickref=)          | ja                       | ja mit smartsteuer                                       | ja mit smartsteuer    | [ja](https://support.lexoffice.de/de-form/articles/5367429-banken-in-lexoffice)                                                                          | ja             | ja                          | nein             | nein                     | ja                   | ja                |
+| [Buchhaltungsbutler](https://www.awin1.com/awclick.php?gid=460510&mid=32115&awinaffid=1456770&linkid=3354560&clickref=) | ja                       | keine automatische übernahme (download als csv oder pdf) | nein                  | ja [(ausnahme Holvi & Finom)](https://wissen.buchhaltungsbutler.de/hc/de/articles/11422557007517-Aktueller-Anbindungsstatus-von-Banken-und-Kreditkarten) | ja             |                             | ja               |                          | ja                   | ja                |
+| Kontolino!                                                                                                              |                          |                                                          |                       |                                                                                                                                                          |                |                             |                  |                          |                      |                   |
+| [papierkram](https://www.awin1.com/awclick.php?gid=426184&mid=25390&awinaffid=1456770&linkid=3017980&clickref=)         |                          |                                                          |                       |                                                                                                                                                          |                |                             |                  |                          |                      |                   |
+| FastBill                                                                                                                |                          |                                                          |                       |                                                                                                                                                          |                |                             |                  |                          |                      |                   |
+| [Sage](https://www.awin1.com/awclick.php?gid=400001&mid=11752&awinaffid=1456770&linkid=2739676&clickref=)               |                          |                                                          |                       |                                                                                                                                                          |                |                             |                  |                          |                      |                   |
+| sevdesk                                                                                                                 |                          |                                                          |                       |                                                                                                                                                          |                |                             |                  |                          |                      |                   |
+
