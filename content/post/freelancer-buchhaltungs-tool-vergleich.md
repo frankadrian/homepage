@@ -14,7 +14,6 @@ customClass = "widerr"
 Als freiberufler kann man von der einfachen Buchführung Gebrauch machen.
 Hierfür ist eine einfache Einnahmenüberschussrechnung notwendig wo sämtliche Geschäftsvorfälle chronologisch erfasst werden.
 
- 
 
 
 ### Kriterien
