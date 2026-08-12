@@ -1,5 +1,5 @@
 baseURL = "https://frankadrian.net/"
-languageCode = "en-us"
+languageCode = "de-de"
 title = "Frank Adrian"
 
 theme = "hugo-nuo"
@@ -25,7 +25,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/"
 
 [[menu.main]]
-  name = "Projects"
+  name = "Projekte"
   weight = 15
   identifier = "project"
   url = "/project/"
@@ -41,9 +41,9 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 [params]
   author = "Frank Adrian"
   avatar = "/images/avatar.jpg"
-  seotitle = "Frank Adrian"
-  subtitle = "(Mostly) Fullstack WebDev from Hamburg, Germany"
-  description = "This is my personal webspace. Have a look at the projects I am involved in and get in touch with me"
+  seotitle = "Frank Adrian | KI-Berater & Software-Experte"
+  subtitle = "KI-Berater & Software-Experte aus Hamburg"
+  description = "Ich helfe Unternehmen dabei, das Potenzial von Künstlicher Intelligenz auszuschöpfen – von der Strategie bis zur Implementierung."
   paginate = 10
   customStyle = "styles/custom.scss"
 

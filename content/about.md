@@ -1,5 +1,5 @@
 ---
-title: About
+title: Über mich
 date: 2018-11-09 18:01:11 +0000
 layout: about
 weight: 20
@@ -9,14 +9,18 @@ menu:
     weight: 20
 
 ---
-Hello and welcome to my website! My name is Frank Adrian and I am a software developer with over 10 years of experience in the field. I started my career as a junior software developer in 2013 and have since been working to constantly improve and expand my skills.
+Hallo und willkommen auf meiner Website! Mein Name ist Frank Adrian. Ich bin KI-Berater und Software-Experte mit über 10 Jahren Erfahrung in der Entwicklung digitaler Lösungen.
 
-In 2016, I was promoted to Senior Software Engineer and have been working as a self-employed contractor ever since.
+In den letzten Jahren habe ich meinen Fokus auf Künstliche Intelligenz und deren praktische Anwendung in Unternehmensumgebungen verlagert. Ich unterstütze Unternehmen dabei, sich in der komplexen KI-Landschaft zurechtzufinden, vielversprechende Anwendungsfälle zu identifizieren und nachhaltige KI-Strategien zu implementieren.
 
-Throughout my career, I have gained valuable experience in a variety of technologies and programming languages, including PHP, React, Angular, and Node.js. I have expertise in both front-end and back-end development, and enjoy working on full-stack projects that utilize these technologies.
+### Mein Hintergrund
+Mit einem starken Fundament als Senior Software Engineer (seit 2016) und Erfahrung mit Technologien wie Node.js, Python und modernen Web-Frameworks schlage ich die Brücke zwischen abstrakten KI-Konzepten und produktionsreifen Implementierungen.
 
-In my free time, I enjoy cycling and maintaining our Schrebergarten (a small plot of land used for gardening, often found in urban areas in Germany). I am always looking for new ways to challenge myself and stay up-to-date with the latest developments in the tech industry.
+### Was ich tue
+- **KI-Strategieberatung**: Identifikation von Mehrwerten durch KI in Ihrem spezifischen Geschäftskontext.
+- **Individuelle KI-Lösungen**: Entwicklung von Prototypen und Skalierung von KI-Anwendungen (LLMs, Automatisierung, RAG).
+- **Workshops & Training**: Befähigung von Teams zur effektiven Nutzung von KI-Tools.
 
-My current goal with this website is to start writing again and also have people find the content that I write about.
+In meiner Freizeit fahre ich gerne Rad und kümmere mich um meinen Schrebergarten in Hamburg. Ich bin davon überzeugt, dass die beste Technologie diejenige ist, die reale Probleme löst und dabei zugänglich und ethisch bleibt.
 
-Thank you for visiting and I hope you find the information and resources here helpful. If you have any questions or would like to learn more about me and my work, please don't hesitate to reach out via any channel provided here 👋.
+Wenn Sie einen Partner für den Start Ihrer KI-Reise suchen oder bestehende Prozesse optimieren möchten, lassen Sie uns in Kontakt treten! 🚀
